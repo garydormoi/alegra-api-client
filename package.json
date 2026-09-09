@@ -1,0 +1,42 @@
+{
+  "name": "alegra-api-client",
+  "version": "0.1.0",
+  "description": "Cliente ligero y tipado para la API de Alegra (contactos, ítems y facturas): autenticación, paginación y manejo de rate limits.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint:types": "tsc --noEmit"
+  },
+  "keywords": [
+    "alegra",
+    "alegra-api",
+    "facturacion",
+    "contabilidad",
+    "api-client",
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
