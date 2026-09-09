@@ -23,7 +23,8 @@
     "build": "tsc -p tsconfig.json",
     "test": "vitest run",
     "test:watch": "vitest",
-    "lint:types": "tsc --noEmit"
+    "lint:types": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "alegra",
@@ -38,5 +39,17 @@
     "@types/node": "^20.14.0",
     "typescript": "^5.5.0",
     "vitest": "^2.0.0"
+  },
+  "author": "Gary Dormoi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garydormoi/alegra-api-client.git"
+  },
+  "homepage": "https://github.com/garydormoi/alegra-api-client#readme",
+  "bugs": {
+    "url": "https://github.com/garydormoi/alegra-api-client/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

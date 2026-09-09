@@ -1,5 +1,7 @@
 # alegra-api-client
 
+[![CI](https://github.com/garydormoi/alegra-api-client/actions/workflows/ci.yml/badge.svg)](https://github.com/garydormoi/alegra-api-client/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 Cliente ligero y **tipado** (TypeScript) para la [API de Alegra](https://developer.alegra.com/).
 Cubre lo esencial de la capa de integración: **autenticación**, **paginación** y
 **manejo de rate limits** con reintentos, sobre `contactos`, `ítems` y `facturas`.
