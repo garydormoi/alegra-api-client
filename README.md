@@ -1,6 +1,6 @@
 # alegra-api-client
 
-[![CI](https://github.com/garydormoi/alegra-api-client/actions/workflows/ci.yml/badge.svg)](https://github.com/garydormoi/alegra-api-client/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![CI](https://github.com/garydormoi/alegra-api-client/actions/workflows/ci.yml/badge.svg)](https://github.com/garydormoi/alegra-api-client/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [![npm version](https://img.shields.io/npm/v/alegra-api-client.svg)](https://www.npmjs.com/package/alegra-api-client)
 
 Cliente ligero y **tipado** (TypeScript) para la [API de Alegra](https://developer.alegra.com/).
 Cubre lo esencial de la capa de integración: **autenticación**, **paginación** y
