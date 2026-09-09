@@ -178,3 +178,6 @@ los parámetros usados (sin credenciales) y el comportamiento esperado.
 ## Licencia
 
 [MIT](./LICENSE)
+
+## Changelog
+- 0.1.0 - primera version publica
